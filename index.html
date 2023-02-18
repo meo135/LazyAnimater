@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="icon.ico" type="image/x-icon"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>LazyAnimater</title>
+    
+</head>
+<body>
+    <div class="top">
+        <div class="logo">LazyAnimater</div>        
+        <!--<div class="logo2">Made by MEO</div>-->
+        <a href="https://joy.gallery/meo-135" target="_blank"><div class="twitter">See more</div></a>
+        <div class="bg"></div>
+    </div>
+    <canvas id="mycanvas" width="1015" height="565"></canvas>
+
+    
+
+    <div class="tool">
+        <div id="title">Animate any character in seconds!</div>
+        <!--<div id="sample" class="sample1"></div>-->
+        <div id="explain">
+            <ul>
+                <li>See this <a href="https://twitter.com/rena_tigress" target="_blank" class="tutorial">tutorial</a> first</li>
+                <li>Sroll to zoom</li>
+                <li>Drag to select where you want to animate</li>
+                <li>Change the background-color</li>
+                <li>Repeat and done</li>
+            </ul>   
+         </div>
+        <!--Drag the area of two eyes, change the background color with code. 
+            Once you're done, press the "skip" button.-->
+        <!--拖曳滑鼠圈選眼睛的範圍，如果完成就可以按跳過，最多兩個-->
+    </div>
+
+    <form action="/somewhere/to/upload" enctype="multipart/form-data"></form>
+    <input type="file" id="input" onchange="readURL(this)"> 
+    <button id="eye_button">skip eyes</button>  
+    <button id="mouth_button">skip mouth</button>
+    <p id="status">status: eyes</p>
+
+    <div class="ask_img">
+        <input type="text" id="img_url" placeholder="image url"> 
+        <button id="img_button">confirm</button>
+    </div>
+    <div class="ask_color">
+        <input type="text" id="color_code" placeholder="#242424" size="15"> 
+        <button id="color_button">confirm color</button>
+    </div>
+    <div class="ask_scale">
+        
+        <input type="text" id="scale_rate" value="0.95"> 
+        <button id="scale_button">confirm scale</button>
+    </div>
+    
+    <p class="version">version 1.06</p>
+    
+    <script src="code.js"></script>
+    
+</body>
+</html>
+
+

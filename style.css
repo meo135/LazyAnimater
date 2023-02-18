@@ -1,0 +1,211 @@
+@import url(“https://fonts.googleapis.com/earlyaccess/notosanstc.css”);
+
+body{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;    
+    background-color: #242424;
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: ‘Noto Sans TC’!important;*/
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+button{
+    border: none;
+    padding: 4px 9px;
+    border-radius: 6px;
+    margin-left: 2px;
+}
+button:hover{
+    transform: scale(1.1);
+}
+#mycanvas{
+    
+    position: absolute;
+    top: 35px;
+    /*
+    left: 100px;
+    border: 1px solid red;
+    */
+}
+#eye_button{
+    position: absolute;
+    top: 530px;
+    left: 1065px;    
+    background-color: #ff00ad;
+    background: linear-gradient(-45deg, #ff00ad, #7b00ff);
+    color: white;
+}
+#mouth_button{
+    position: absolute;
+    top: 530px;
+    left: 1158px;
+    background-color: #2400ff;
+    background: linear-gradient(-45deg, #ff00ad, #9500ff);
+    color: white;
+}
+#status{
+    position: absolute;
+    top: 580px;
+    left: 1168px;
+    color: rgb(154, 153, 153);
+}
+#title{
+    height: 30px;
+    width: 208px;
+    font-size: 20px;
+    font-weight:bold;
+    margin-left: 25px;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    position: absolute;
+    top: 20px;
+    left: 980px;
+    letter-spacing: 1px;
+    border: 1px solid red;
+    color: rgb(70, 70, 70);
+    */
+       
+    color: white;  
+    
+}
+#explain{
+    height: 150px;
+    width: 195px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    /*
+    position: absolute;
+    top: 160px;
+    left: 980px;
+    border: 1px solid red;
+    */
+    
+}
+#sample{
+    height: 150px;
+    width: 200px;
+    /*
+    position: absolute;
+    top: 60px;
+    left: 980px;
+    */
+    border: 1px solid red;
+    
+}
+#input{
+    height: 24px;
+    width: 200px;
+    
+    position: absolute;
+    top: 400px;
+    left: 1035px;    
+    
+}
+.ask_color{
+    position: absolute;
+    top: 480px;
+    left: 1035px;
+}
+.ask_scale{
+    position: absolute;
+    top: 450px;
+    left: 980px;
+}
+.ask_img{
+    position: absolute;
+    top: 440px;
+    left: 1035px;
+}
+.sample1{
+    background-image: url("face.png");
+}
+.tool{
+    height: 565px;
+    width: 260px;
+    position: absolute;    
+    left: 1015px;
+    top: 35px;        
+    background-color: #525252;
+    border: 1px solid #242424;
+    /*
+    box-shadow: 0px 20px 20px 10px #dad6cf;
+    border: 1px solid #dad6cf;
+    */
+}
+.version{
+    color: rgb(154, 153, 153);
+    position: absolute;
+    left: 5px;
+    top: 580px;
+    letter-spacing: 1px;
+}
+.top{    
+    height: 35px;
+    width: 1277px;    
+    position: absolute;
+    background-color: #3d3d3d;
+    
+    
+    
+}
+.logo{ 
+    float: left;   
+    font-size: 18px;
+    margin-top: 9px;
+    margin-left: 10px;
+    font-family: Lucida Console;
+    color: azure;
+    font-weight:bold;
+    letter-spacing: -1px;
+    
+}
+.logo2{    
+    float: left;
+    font-size: 18px;
+    margin-top: 9px;
+    margin-left: 900px;
+    font-family: Courier;
+    color: rgb(204, 211, 211);   
+    letter-spacing: -2px; 
+}
+.bg{
+    
+    height: 21px;
+    width: 21px;
+    background-color: rgb(160, 85, 129);
+    background: linear-gradient(-45deg, #ff00ad, #2400ff);
+    z-index: -1px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+.twitter{
+    height: 22px;
+    padding-top: 4px;
+    padding-bottom: -4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    position: absolute;
+    left: 1188px;
+    top: 5px;
+    background: linear-gradient(-45deg, #ff00ad, #2400ff);
+    font-size: 14px;
+    color: white;
+    border-radius: 10px;
+}
+.twitter:hover{
+    transform: scale(1.1);
+}
+.tutorial{
+    
+    color:#ff72d2;
+}
